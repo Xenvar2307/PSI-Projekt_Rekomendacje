@@ -21,7 +21,9 @@ ___
 
 ## Instrukcje nauczania
 1. Upewnij się że spełniasz wymagania
-2. włączyć program Ollama
-3. Umieścić dane do nauki w pliku 'netflix_titles.csv'
-4. Włączyć program Generate_index.py (nauka zajęła 4h)
-5. Przejść do notebooka 'recomend.ipynb' i sprawdzić proste przykłady
+`pip install -r requirements.txt`
+`Ollama pull llama2`
+3. włączyć program Ollama
+4. Umieścić dane do nauki w pliku 'netflix_titles.csv'
+5. Włączyć program Generate_index.py (nauka zajęła 4h)
+6. Przejść do notebooka 'recomend.ipynb' i sprawdzić proste przykłady
