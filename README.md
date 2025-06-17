@@ -1,6 +1,9 @@
 # PSI-Projekt: System rekomendacji filmów i seriali
 Projekt na przedmiot PSI, rozwiązujący problem rekomendacji filmów i seriali na podstawie danych o produkcie.
 
+## Schemat działania
+Program opiera się na Large Language Model LLama2 od Mety. Opisy produktów są zamieniane na pojedynczy String, następnie za pomocą modelu językowego, zamieniane na wektory (podobne w znaczeniu frazy będą znajdowały się bliżej siebie). Na takich wektorach może operować indexFlatL2, który ma za zadanie obliczyć odległości euklidesowe między nimi, co może być powolne, ale za to dokładne. 
+
 ## Zależności
 Plik "requirements.txt" zawiera 4 biblioteki:
 - numpy i pandas do przetwarzania danych
