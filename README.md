@@ -5,7 +5,7 @@ Projekt na przedmiot PSI, rozwiązujący problem rekomendacji filmów i seriali 
 Plik "requirements.txt" zawiera 4 biblioteki:
 - numpy i pandas do przetwarzania danych
 - faiss do wykrywania podobieństw między wektorami
-- requests do komunikacji
+- requests do komunikacji\
 Dodatkowo embedding opisu produktów jest wykonywany za pomocą modelu llama2 z Ollama, jeżeli chcemy samemu nauczyć algorytm należy go zainstalować według instrukcji w pliku z wymaganiami
 
 ___
