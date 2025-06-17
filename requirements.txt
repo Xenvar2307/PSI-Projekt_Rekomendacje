@@ -1,0 +1,7 @@
+#1. Ollama z modelem llama2
+#find at: https://ollama.com/download
+#"ollama pull llama2"
+numpy==2.2.3 #Numpy - dane
+pandas==2.2.3 #3. Pandas - dane
+faiss-cpu==1.11.0 #4. Faiss-cpu - embedding
+requests==2.32.3 #5. Requests - requesty do faiss
