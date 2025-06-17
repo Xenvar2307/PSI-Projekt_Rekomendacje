@@ -25,7 +25,7 @@ for i, representation in enumerate(df['textual_representation']):
     
     embedding = get_embedding_from_representation(representation)
 
-    X[i] = embedding
+    X[i] = np.array(embedding)
 
 
 index.add(X)

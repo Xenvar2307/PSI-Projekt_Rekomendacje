@@ -30,7 +30,7 @@ def get_embedding_from_representation(representation):
                             'prompt': representation
                         })
     
-    embedding = np.array([res.json()['embedding']], dtype='float32')
+    embedding = res.json()['embedding']
 
     return embedding
 
