@@ -30,4 +30,4 @@ for i, representation in enumerate(df['textual_representation']):
 
 index.add(X)
 
-faiss.write_index(index, 'index_1')
+faiss.write_index(index, 'index')
